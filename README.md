@@ -1,10 +1,10 @@
-# 🌲 Ensemble Models: Random Forest vs Gradient Boosting
+# Ensemble Models: Random Forest vs Gradient Boosting
 
 This project compares two powerful ensemble techniques — **Random Forest** and **Gradient Boosting** — for binary classification using a credit risk dataset. The focus is to demonstrate how **Bagging (Random Forest)** and **Boosting (Gradient Boosting)** differ in performance, model behavior.
 
 ---
 
-## 📌 Objective
+## Objective
 
 - To compare Random Forest and Gradient Boosting models on a real-world classification task.
 - Analyze the difference in accuracy, precision-recall trade-offs, and feature importance.
@@ -12,7 +12,7 @@ This project compares two powerful ensemble techniques — **Random Forest** and
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Dataset:** Credit Risk Dataset  
 - **Target Variable:** `Loan_Status`  
@@ -21,7 +21,7 @@ This project compares two powerful ensemble techniques — **Random Forest** and
 
 ---
 
-## ⚙️ Preprocessing Steps
+## Preprocessing Steps
 
 1. **Categorical Encoding:** Label Encoding for object columns.
 2. **Missing Values:** Imputed with `SimpleImputer(strategy='mean')`.
@@ -30,7 +30,7 @@ This project compares two powerful ensemble techniques — **Random Forest** and
 
 ---
 
-## 🧠 Models Compared
+## Models Compared
 
 | Model            | Type     | Ensemble Strategy |
 |------------------|----------|-------------------|
@@ -39,7 +39,7 @@ This project compares two powerful ensemble techniques — **Random Forest** and
 
 ---
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Metric        | Random Forest | Gradient Boosting |
 |---------------|---------------|-------------------|
@@ -50,16 +50,16 @@ This project compares two powerful ensemble techniques — **Random Forest** and
 
 ---
 
-## 📈 Outputs
+## Outputs
 
-### ✅ Test Accuracy Comparison
+### Test Accuracy Comparison
 Random Forest vs Gradient Boosting
 
 ![E4](https://github.com/user-attachments/assets/76179e48-55bd-40ac-8386-b6908e6eec67)
 
 ---
 
-## 📚 Conclusion
+## Conclusion
 
 - **Random Forest** performs slightly better in overall accuracy and recall.
 - **Gradient Boosting** can be more sensitive to class imbalances but is tunable.
@@ -67,7 +67,7 @@ Random Forest vs Gradient Boosting
 
 ---
 
-## 🧠 Skills Applied
+## Skills Applied
 
 - Ensemble Learning
 - Tree-Based Models
@@ -77,7 +77,7 @@ Random Forest vs Gradient Boosting
 
 ---
 
-## 📎 How to Run
+## How to Run
 
 ```bash
 # Clone repository
